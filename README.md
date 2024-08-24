@@ -33,7 +33,7 @@ To start using the components in this repository, follow the installation instru
 You can clone this repository using Git:
 
 ```bash
-git clone https://github.com/yourusername/web-resources.git
+git clone https://github.com/yourusername/WEB-RESOURCES.git
 ```
 
 Alternatively, download the repository as a ZIP file from GitHub and extract it to your project directory.
