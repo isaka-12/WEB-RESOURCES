@@ -1,0 +1,141 @@
+:root{
+    --primary:#111926;
+    --white:#fff;
+    --background:#f8f8ff;
+    --gray:#D3D3D3;
+    --text:#262626;
+    --like:#FF3040;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 100vh;
+    h1{
+        text-align: center;
+    }
+}
+.card-area{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.card{
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    display: flex;
+    width: 22rem;
+    height: 29rem;
+    flex-direction: column;
+    box-shadow: 0 2px 6px rgba(0, 0,0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 6px 16px rgba(0, 0,0, 0.1);
+}
+.card-preview{
+    height: 12rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.card:hover .card-preview img{
+    transform: scale(1.35);
+}
+.card-preview img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-out; 
+}
+.card_address{
+    margin-top: 0.5rem;
+}
+.overlay{
+    background-color: #ffffff;
+    color: black;
+    z-index: 1;
+    position: absolute;
+    bottom: 1.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    left: 1.25rem;
+    font-weight: bold;
+    
+}
+
+.card-content{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: var(--text);
+}
+
+.card_bottom{
+    border-top: #111926 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0.5rem 0;
+}
+.card_description{
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+.card_btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+    p{
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+        font-weight: normal;
+        font-style: italic;
+    }
+   
+}
+.card_btn i{
+    font-size: 1.6rem;
+    color: var(--gray);
+    transition: color 0.3s ease;
+   
+    
+}
+
+
+.card_btn--like i{
+    color: var(--like);
+    stroke: none;
+}
+
+
+
+
