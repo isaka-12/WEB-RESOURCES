@@ -1,5 +1,3 @@
-To create a GitHub repository README for a collection of web resources using HTML, CSS, and JavaScript, you can highlight the technologies used and provide a brief overview of how each resource can be implemented. Here’s a refined version of the README:
-
 ---
 
 # Web Resources Repository
@@ -48,32 +46,6 @@ Each component in this repository is designed to be self-contained. Follow these
 2. **CSS**: Link the corresponding CSS file in the `<head>` section of your HTML file or copy the styles directly into your main stylesheet.
 3. **JavaScript**: If the component requires JavaScript for interactivity, include the JavaScript file in the `<body>` section, just before the closing `</body>` tag, or add the script content directly to your main script file.
 
-Example:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Resources Example</title>
-    <!-- Link to CSS file -->
-    <link rel="stylesheet" href="path/to/component.css">
-</head>
-<body>
-    <!-- Include the HTML structure for the component -->
-    <div class="component-class">
-        <!-- Component content goes here -->
-    </div>
-
-    <!-- Link to JavaScript file -->
-    <script src="path/to/component.js"></script>
-</body>
-</html>
-```
-
-Replace `"path/to/component.css"` and `"path/to/component.js"` with the actual paths to the component files.
-
 ## Contributing
 
 We welcome contributions from the community! To contribute:
@@ -92,4 +64,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to customize this README to better fit your specific repository and web resources!
